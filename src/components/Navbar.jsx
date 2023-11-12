@@ -7,13 +7,13 @@ const Navbar = () => {
       <div className="">
         <Link
           to="/about"
-          className="mr-4 text-sm text-gray-500 hover:underline"
+          className="mr-4 text-sm text-gray-500 hover:text-gray-700"
         >
           About
         </Link>
         <Link
           to="/store"
-          className="mr-4 text-sm text-gray-500 hover:underline"
+          className="mr-4 text-sm text-gray-500 hover:text-gray-700"
         >
           Store
         </Link>
@@ -21,13 +21,13 @@ const Navbar = () => {
       <div>
         <Link
           to="/gmail"
-          className="mr-4 text-sm text-gray-500 hover:underline"
+          className="mr-4 text-sm text-gray-500 hover:text-gray-700"
         >
           Gmail
         </Link>
         <Link
           to="/images"
-          className="mr-4 text-sm text-gray-500 hover:underline"
+          className="mr-4 text-sm text-gray-500 hover:text-gray-700"
         >
           Images
         </Link>
