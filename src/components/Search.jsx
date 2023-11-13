@@ -3,14 +3,14 @@ import MicIcon from "@mui/icons-material/Mic";
 
 const Search = () => {
   return (
-    <div className="text-center mt-4 ">
-      <SearchIcon className="" />
+    <div className="flex items-center mt-4 border rounded-3xl border-slate-500 hover:shadow-lg px-5 my-0 mx-auto max-w-md">
+      <SearchIcon className="mr-2" />
       <input
         type="text"
         placeholder="Start typing..."
-        className="border w-1/2 rounded-3xl px-14 py-2 border-slate-500 hover:shadow-lg tracking-wide"
-      ></input>
-      <MicIcon />
+        className="flex-grow focus:outline-none py-2"
+      />
+      <MicIcon className="ml-2" />
     </div>
   );
 };
