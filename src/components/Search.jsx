@@ -1,10 +1,17 @@
 import SearchIcon from "@mui/icons-material/Search";
 import MicIcon from "@mui/icons-material/Mic";
 import { useState } from "react";
-import { Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  const navigate = useNavigate(); // Use useNavigate instead of useHistory
+
+  const handleSearch = () => {
+    // Redirect to the '/search' page with the search term as a query parameter
+    navigate(`/search?query=${encodeURIComponent(searchTerm)}`);
+    console.log(searchTerm);
+  };
 
   return (
     <>
@@ -14,14 +21,26 @@ const Search = () => {
           type="text"
           value={searchTerm}
           onChange={(event) => setSearchTerm(event.target.value)}
+          onKeyDown={(event) => {
+            if (event.key === "Enter") {
+              handleSearch();
+            }
+          }}
           placeholder="Start Typing..."
           className="flex-grow focus:outline-none py-2"
         />
         <MicIcon className="ml-2" />
       </div>
-      <Button className="" variant="contained">
-        search
-      </Button>
+      <div className="text-center mt-3">
+        <button
+          onClick={handleSearch}
+          className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-whit focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
+        >
+          <span className="relative px-8 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0">
+            Search
+          </span>
+        </button>
+      </div>
     </>
   );
 };
