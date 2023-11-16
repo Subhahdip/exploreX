@@ -2,15 +2,21 @@ import SearchIcon from "@mui/icons-material/Search";
 import MicIcon from "@mui/icons-material/Mic";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useSearchContext } from "../SearchContext";
+import { actionTypes } from "../reducer";
 
 const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate(); // Use useNavigate instead of useHistory
-
+  const [{}, dispatch] = useSearchContext();
   const handleSearch = () => {
-    // Redirect to the '/search' page with the search term as a query parameter
     navigate(`/search?query=${encodeURIComponent(searchTerm)}`);
     console.log(searchTerm);
+
+    dispatch({
+      type: actionTypes.SET_SEARCH_TERM,
+      term: searchTerm,
+    });
   };
 
   return (

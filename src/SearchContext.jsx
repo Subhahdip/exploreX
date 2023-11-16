@@ -1,24 +1,14 @@
 // SearchContext.js
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useReducer } from "react";
 
 const SearchContext = createContext();
 
-const SearchProvider = ({ children }) => {
-  const [searchTerm, setSearchTerm] = useState("");
-
-  const updateSearchTerm = (term) => {
-    setSearchTerm(term);
-  };
-
+export const SearchProvider = ({ reducer, initialState, children }) => {
   return (
-    <SearchContext.Provider value={{ searchTerm, updateSearchTerm }}>
+    <SearchContext.Provider value={useReducer(reducer, initialState)}>
       {children}
     </SearchContext.Provider>
   );
 };
 
-const useSearchContext = () => {
-  return useContext(SearchContext);
-};
-
-export { SearchProvider, useSearchContext };
+export const useSearchContext = () => useContext(SearchContext);
