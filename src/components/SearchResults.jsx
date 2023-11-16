@@ -1,19 +1,19 @@
 // SearchResults.js
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { useSearchContext } from "../SearchContext";
 
 const SearchResults = () => {
-  const { searchResults } = useSearchContext();
+  const { searchTerm } = useSearchContext();
 
   useEffect(() => {
-    // Do something with the searchResults
-    console.log("Search Results:", searchResults);
-  }, [searchResults]);
+    // Now 'searchTerm' contains the search term from the context
+    console.log("Search Results for:", searchTerm);
+  }, [searchTerm]);
 
   return (
     <div>
-      {/* Render your search results here */}
-      <h1>Search Results</h1>
+      <h1>Search Results for: {searchTerm}</h1>
+      {/* Render the search results here */}
     </div>
   );
 };
