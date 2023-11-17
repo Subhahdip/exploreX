@@ -1,5 +1,5 @@
 // SearchContext.js
-import React, { createContext, useContext, useReducer } from "react";
+import { createContext, useContext, useReducer } from "react";
 import PropTypes from "prop-types";
 
 const SearchContext = createContext();

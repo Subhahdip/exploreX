@@ -4,14 +4,17 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSearchContext } from "../SearchContext";
 import { actionTypes } from "../reducer";
+import API_KEY from "../keys";
 
 const Search = () => {
+  // const apiKey = process.env.REACT_APP_GOOGLE_API_KEY;
+
   const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate(); // Use useNavigate instead of useHistory
   const [{}, dispatch] = useSearchContext();
   const handleSearch = () => {
     navigate(`/search?query=${encodeURIComponent(searchTerm)}`);
-    console.log(searchTerm);
+    console.log(searchTerm, API_KEY);
 
     dispatch({
       type: actionTypes.SET_SEARCH_TERM,
