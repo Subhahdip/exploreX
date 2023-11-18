@@ -1,14 +1,12 @@
 // SearchResults.js
 import { useSearchContext } from "../SearchContext";
+import useGoogleSearch from "../useGoogleSearch";
 
 const SearchResults = () => {
   const [{ term }, dispatch] = useSearchContext();
+  const { data } = useGoogleSearch(term);
 
-  // useEffect(() => {
-  //   // Now 'searchTerm' contains the search term from the context
-  //   console.log("Search Results for:", searchTerm);
-  // }, [searchTerm]);
-
+  console.log(data);
   return (
     <div>
       <h1>Search Results for: {term}</h1>
