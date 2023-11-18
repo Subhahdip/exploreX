@@ -4,7 +4,7 @@ import useGoogleSearch from "../useGoogleSearch";
 
 const SearchResults = () => {
   const [{ term }, dispatch] = useSearchContext();
-  const { data } = useGoogleSearch(term);
+  const data = useGoogleSearch(term);
 
   console.log(data);
   return (

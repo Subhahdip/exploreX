@@ -8,18 +8,31 @@ const useGoogleSearch = (term) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      fetch(`https://www.googleapis.com/customsearch/v1?
-      key=${API_KEY}&cx=${searchEngineId}&q=${term}
-      `)
-        .then((response) => response.json)
-        .then((result) => {
-          setData(result);
-        });
+      try {
+        const response = await fetch(
+          `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${searchEngineId}&q=${term}`
+        );
+
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+
+        const result = await response.json();
+        setData(result);
+      } catch (error) {
+        console.error("Error fetching data:", error.message);
+      }
     };
-    fetchData();
+
+    if (term) {
+      fetchData();
+    } else {
+      // Clear the data if the search term is empty
+      setData(null);
+    }
   }, [term]);
 
-  return { data };
+  return data;
 };
 
 export default useGoogleSearch;
