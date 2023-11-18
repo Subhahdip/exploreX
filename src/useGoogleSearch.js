@@ -32,7 +32,7 @@ const useGoogleSearch = (term) => {
     }
   }, [term]);
 
-  return data;
+  return { data };
 };
 
 export default useGoogleSearch;

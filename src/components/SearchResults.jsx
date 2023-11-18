@@ -1,15 +1,19 @@
 // SearchResults.js
 import { useSearchContext } from "../SearchContext";
 import useGoogleSearch from "../useGoogleSearch";
+import mockResponse from "../mockResponse";
 
 const SearchResults = () => {
   const [{ term }, dispatch] = useSearchContext();
-  const data = useGoogleSearch(term);
+  // const data = useGoogleSearch(term);
 
-  console.log(data);
+  console.log(mockResponse);
   return (
     <div>
-      <h1>Search Results for: {term}</h1>
+      <p>
+        About {mockResponse.searchInformation.formattedTotalResults} results in{" "}
+        {mockResponse.searchInformation.formattedSearchTime} seconds for {term}{" "}
+      </p>
     </div>
   );
 };
