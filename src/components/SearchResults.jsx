@@ -10,7 +10,6 @@ const SearchResults = () => {
   return (
     <div>
       <h1>Search Results for: {term}</h1>
-      {/* Render the search results here */}
     </div>
   );
 };
