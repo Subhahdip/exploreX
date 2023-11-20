@@ -1,3 +1,4 @@
+// useGoogleSearch.js
 import { useEffect, useState } from "react";
 import API_KEY from "./keys";
 
@@ -5,6 +6,7 @@ const searchEngineId = "76ad510acf79a4a2c";
 
 const useGoogleSearch = (term) => {
   const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -21,6 +23,7 @@ const useGoogleSearch = (term) => {
         setData(result);
       } catch (error) {
         console.error("Error fetching data:", error.message);
+        setError(error.message);
       }
     };
 
@@ -32,7 +35,7 @@ const useGoogleSearch = (term) => {
     }
   }, [term]);
 
-  return { data };
+  return { data, error };
 };
 
 export default useGoogleSearch;

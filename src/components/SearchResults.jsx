@@ -1,21 +1,26 @@
-// SearchResults.js
 import { useSearchContext } from "../SearchContext";
 import useGoogleSearch from "../useGoogleSearch";
-import mockResponse from "../mockResponse";
+import Search from "./Search";
 
 const SearchResults = () => {
   const [{ term }, dispatch] = useSearchContext();
-  // const data = useGoogleSearch(term);
+  const { data } = useGoogleSearch(term);
 
-  console.log(mockResponse);
+  if (!data || !data.searchInformation) {
+    // If data is still being fetched or doesn't have the expected structure,
+    // you can display a loading message or handle it accordingly
+    return <p>Loading...</p>;
+  }
+
   return (
     <div>
+      <Search />
       <p>
-        About {mockResponse.searchInformation.formattedTotalResults} results in{" "}
-        {mockResponse.searchInformation.formattedSearchTime} seconds for {term}{" "}
+        About {data.searchInformation.formattedTotalResults} results in{" "}
+        {data.searchInformation.formattedSearchTime} seconds for {term}{" "}
       </p>
       <div className="mt-8">
-        {mockResponse.items.map((item) => (
+        {data.items.map((item) => (
           <div key={item.link} className="mb-6">
             <a
               href={item.link}
@@ -30,7 +35,6 @@ const SearchResults = () => {
             >
               {item.title}
             </a>
-
             <p className="text-gray-700 mt-2">{item.snippet}</p>
           </div>
         ))}

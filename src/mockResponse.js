@@ -8,9 +8,9 @@ export default {
   queries: {
     request: [
       {
-        title: "Google Custom Search - india",
-        totalResults: "21640000000",
-        searchTerms: "india",
+        title: "Google Custom Search - audi",
+        totalResults: "870000000",
+        searchTerms: "audi",
         count: 10,
         startIndex: 1,
         inputEncoding: "utf8",
@@ -21,9 +21,9 @@ export default {
     ],
     nextPage: [
       {
-        title: "Google Custom Search - india",
-        totalResults: "21640000000",
-        searchTerms: "india",
+        title: "Google Custom Search - audi",
+        totalResults: "870000000",
+        searchTerms: "audi",
         count: 10,
         startIndex: 11,
         inputEncoding: "utf8",
@@ -37,43 +37,287 @@ export default {
     title: "exploreX",
   },
   searchInformation: {
-    searchTime: 0.191982,
-    formattedSearchTime: "0.19",
-    totalResults: "21640000000",
-    formattedTotalResults: "21,640,000,000",
+    searchTime: 0.482682,
+    formattedSearchTime: "0.48",
+    totalResults: "870000000",
+    formattedTotalResults: "870,000,000",
   },
   items: [
     {
       kind: "customsearch#result",
-      title: "India - Wikipedia",
-      htmlTitle: "\u003cb\u003eIndia\u003c/b\u003e - Wikipedia",
-      link: "https://en.wikipedia.org/wiki/India",
+      title:
+        "Audi | Luxury sedans, SUVs, convertibles, electric vehicles & more",
+      htmlTitle:
+        "<b>Audi</b> | Luxury sedans, SUVs, convertibles, electric vehicles &amp; more",
+      link: "https://www.audiusa.com/us/web/en.html",
+      displayLink: "www.audiusa.com",
+      snippet:
+        "Explore the full lineup of Audi Sport, SUVs, sedans, e-tron models & more. Build your own, search inventory and explore current special offers.",
+      htmlSnippet:
+        "Explore the full lineup of <b>Audi</b> Sport, SUVs, sedans, e-tron models &amp; more. Build your own, search inventory and explore current special offers.",
+      formattedUrl: "https://www.audiusa.com/us/web/en.html",
+      htmlFormattedUrl: "https://www.<b>audi</b>usa.com/us/web/en.html",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRRwkFJIjReHmpWQN2J7OfA4L1FHsIq0stBTHB3nRKpzRaVAoJZYasKQslN",
+            width: "343",
+            height: "147",
+          },
+        ],
+        metatags: [
+          {
+            "theme-color": "#000000",
+            "wag-baseurl": "https://web-api.audi.com",
+            "locale-market": "US",
+            "cola-api-url": "https://onegraph.audi.com/graphql",
+            "i18n-endpoint": "https://www.audiusa.com/us/web/en.i18n.json",
+            "apple-mobile-web-app-title": "Audi.de",
+            "og:title":
+              "Audi | Luxury sedans, SUVs, convertibles, electric vehicles & more",
+            "myaudi-auth-proxy": "https://www.audiusa.com/userinfo/",
+            "vue-agw-endpoint": "https://web-api.audi.com",
+            "og:description":
+              "Explore the full lineup of Audi Sport, SUVs, sedans, e-tron models & more. Build your own, search inventory and explore current special offers.",
+            "myaudi-logout-url": "https://www.audiusa.com/us/web/en.html",
+            "locale-language": "en",
+            "facebook-domain-verification": "48x8ohjpp0hci5hy12q6uautfs96b6",
+            viewport: "width=device-width, initial-scale=1",
+            "locale-currency": "USD",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCElzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grD__c6-_PqiS0bXxhd_L-hZDF1tsv2jCwgnT9BxLMz4AE32sgwXGVAUyCZBJARDuIz2TAzMDAWgFkRDKAgKCGAZFAmN3FNcTR0ycYAERUX9XZAAAA?wid=291",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Audi.com – the international Audi website | audi.com",
+      htmlTitle:
+        "<b>Audi</b>.com – the international <b>Audi</b> website | <b>audi</b>.com",
+      link: "https://www.audi.com/",
+      displayLink: "www.audi.com",
+      snippet:
+        "Discover Audi as a brand, company and employer on our international website. Here you will find information about models and technologies.",
+      htmlSnippet:
+        "Discover <b>Audi</b> as a brand, company and employer on our international website. Here you will find information about models and technologies.",
+      cacheId: "TBiwXTks4BcJ",
+      formattedUrl: "https://www.audi.com/",
+      htmlFormattedUrl: "https://www.<b>audi</b>.com/",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6oiEHcbUx8q4-QRCN1EoEv_lFhXfjXkhc2XYdsS2zd6BPBn8D0XevRzA",
+            width: "259",
+            height: "194",
+          },
+        ],
+        thumbnail: [
+          {
+            src: "https://www.audi.com/content/dam/gbp2/experience-audi/models-and-technology/production-models/1920x1440_A189584_large.jpg",
+          },
+        ],
+        metatags: [
+          {
+            "msapplication-tilecolor": "#ffffff",
+            date: "Fri Nov 17 18:53:23 CEST 2023",
+            "og:image":
+              "https://www.audi.com/content/dam/gbp2/experience-audi/models-and-technology/production-models/1920x1440_A189584_large.jpg?imwidth=1920&imdensity=1",
+            "theme-color": "#ffffff",
+            thumbnail:
+              "https://www.audi.com/content/dam/gbp2/experience-audi/models-and-technology/production-models/1920x1440_A189584_large.jpg",
+            gbp2_search_image_desktop:
+              "https://www.audi.com/content/dam/gbp2/experience-audi/models-and-technology/production-models/1920x1440_A189584_large.jpg",
+            "twitter:title":
+              "Audi.com – the international Audi website | audi.com",
+            "og:type": "website",
+            "twitter:card": "summary",
+            "og:site_name": "audi.com",
+            "og:title": "Audi.com – the international Audi website | audi.com",
+            "msapplication-tileimage": "/etc/designs/gbp2/mstile-144x144.png",
+            "og:description":
+              "Discover Audi as a brand, company and employer on our international website. Here you will find information about models and technologies. Inspiring content, interesting backgrounds and fascinating moments – digital, individual and authentic. Experience our vision of mobility and let yourself be inspired.",
+            "twitter:image":
+              "https://www.audi.com/content/dam/gbp2/experience-audi/models-and-technology/production-models/1920x1440_A189584_large.jpg?imwidth=1920&imdensity=1",
+            viewport: "width=device-width, initial-scale=1",
+            "twitter:description":
+              "Discover Audi as a brand, company and employer on our international website. Here you will find information about models and technologies. Inspiring content, interesting backgrounds and fascinating moments – digital, individual and authentic. Experience our vision of mobility and let yourself be inspired.",
+            "og:url": "https://www.audi.com/en.html",
+            "gbp2:title": "Audi.com – the international Audi website",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://www.audi.com/content/dam/gbp2/careers/Working-at-Audi/culture/women-in-tech/1920x1440_DSC_9374.jpg?imwidth=706&imdensity=1",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Audi Cars: Sedans - SUVs - Coupes - Convertibles | Audi USA",
+      htmlTitle:
+        "<b>Audi</b> Cars: Sedans - SUVs - Coupes - Convertibles | <b>Audi</b> USA",
+      link: "https://www.audiusa.com/us/web/en/models.html",
+      displayLink: "www.audiusa.com",
+      snippet:
+        "Explore the current Audi model lineup - Sedans, SUVs, Convertibles, Coupes, Electric and Hybrids. Experience your Audi today.",
+      htmlSnippet:
+        "Explore the current <b>Audi</b> model lineup - Sedans, SUVs, Convertibles, Coupes, Electric and Hybrids. Experience your <b>Audi</b> today.",
+      formattedUrl: "https://www.audiusa.com/us/web/en/models.html",
+      htmlFormattedUrl: "https://www.<b>audi</b>usa.com/us/web/en/models.html",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT0RdQUyKbcP2Ggi03bHoktHu8pnKJwDEiYDb_DEp5NVeKuWKjlZnRO9UsC",
+            width: "343",
+            height: "147",
+          },
+        ],
+        metatags: [
+          {
+            "msapplication-tilecolor": "#ffffff",
+            "msapplication-config":
+              "/bin/nemo.static.20231116063153/cms4i-nemo/assets/icons/ms-tiles-IE11/browserconfig.xml",
+            "theme-color": "#000000",
+            "msapplication-square70x70logo":
+              "/bin/nemo.static.20231116063153/cms4i-nemo/assets/icons/ms-tiles-win8/win8-tile-70x70.png",
+            "wag-baseurl": "https://web-api.audi.com",
+            "locale-market": "US",
+            "msapplication-square144x144logo":
+              "/bin/nemo.static.20231116063153/cms4i-nemo/assets/icons/ms-tiles-win8/win8-tile-144x144.png",
+            "cola-api-url": "https://onegraph.audi.com/graphql",
+            "i18n-endpoint": "https://www.audiusa.com/us/web/en.i18n.json",
+            "apple-mobile-web-app-title": "Audi.de",
+            "og:title":
+              "Audi Cars: Sedans - SUVs - Coupes - Convertibles | Audi USA",
+            "myaudi-auth-proxy": "https://www.audiusa.com/userinfo/",
+            "msapplication-wide310x150logo":
+              "/bin/nemo.static.20231116063153/cms4i-nemo/assets/icons/ms-tiles-win8/win8-tile-310x150.png",
+            "vue-agw-endpoint": "https://web-api.audi.com",
+            "msapplication-tileimage":
+              "/bin/nemo.static.20231116063153/cms4i-nemo/assets/icons/ms-tiles-win8/win8-tile-144x144.png",
+            "msapplication-square150x150logo":
+              "/bin/nemo.static.20231116063153/cms4i-nemo/assets/icons/ms-tiles-win8/win8-tile-150x150.png",
+            "og:description":
+              "Explore the current Audi model lineup - Sedans, SUVs, Convertibles, Coupes, Electric and Hybrids. Experience your Audi today.",
+            "myaudi-logout-url": "https://www.audiusa.com/us/web/en.html",
+            "locale-language": "en",
+            "facebook-domain-verification": "48x8ohjpp0hci5hy12q6uautfs96b6",
+            viewport: "width=device-width, initial-scale=1",
+            "msapplication-square310x310logo":
+              "/bin/nemo.static.20231116063153/cms4i-nemo/assets/icons/ms-tiles-win8/win8-tile-310x310.png",
+            "locale-currency": "USD",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCElzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grj5eHtccF31_KMRG3N0rmlvLsX25VzsAK1MUkCSSYNwAJvmlAguMxA5gEmQcSZGgC8ZksmRkYWCuAjEgGEBDUMCASCLO7uIY4evoEAwBqwxYY2QAAAA?wid=850",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Company | audi.com",
+      htmlTitle: "Company | <b>audi</b>.com",
+      link: "https://www.audi.com/en/company.html",
+      displayLink: "www.audi.com",
+      snippet:
+        "Audi stands for sporty vehicles, high build quality and progressive design – for “Vorsprung durch Technik.” The Audi Group is among the world's leading ...",
+      htmlSnippet:
+        "<b>Audi</b> stands for sporty vehicles, high build quality and progressive design – for “Vorsprung durch Technik.” The <b>Audi</b> Group is among the world&#39;s leading&nbsp;...",
+      cacheId: "GuTwNbjxTcgJ",
+      formattedUrl: "https://www.audi.com/en/company.html",
+      htmlFormattedUrl: "https://www.<b>audi</b>.com/en/company.html",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQtAmPIj4XTIJ7bVtDMKOcK4qwo8_XLgQNnyWsEuoFsT7nj-89NYosoH48",
+            width: "299",
+            height: "168",
+          },
+        ],
+        thumbnail: [
+          {
+            src: "https://www.audi.com/content/dam/gbp2/company/overview/1920x1080_company_desktop_teaser.jpg",
+          },
+        ],
+        metatags: [
+          {
+            "msapplication-tilecolor": "#ffffff",
+            date: "Fri Nov 17 19:02:42 CEST 2023",
+            "og:image":
+              "https://www.audi.com/content/dam/gbp2/company/overview/1920x1080_company_desktop_teaser.jpg?imwidth=1920&imdensity=1",
+            "theme-color": "#ffffff",
+            thumbnail:
+              "https://www.audi.com/content/dam/gbp2/company/overview/1920x1080_company_desktop_teaser.jpg",
+            gbp2_search_image_desktop:
+              "https://www.audi.com/content/dam/gbp2/company/overview/1920x1080_company_desktop_teaser.jpg",
+            "twitter:title": "Company | audi.com",
+            "og:type": "website",
+            "twitter:card": "summary",
+            "og:site_name": "audi.com",
+            "og:title": "Company | audi.com",
+            "msapplication-tileimage": "/etc/designs/gbp2/mstile-144x144.png",
+            "og:description":
+              "Audi stands for sporty vehicles, high build quality and progressive design – for “Vorsprung durch Technik.” The Audi Group is among the world’s leading producers of premium cars.",
+            gbp2_search_image_mobile:
+              "https://www.audi.com/content/dam/gbp2/company/overview/1920x1080_company_desktop_teaser.jpg",
+            "twitter:image":
+              "https://www.audi.com/content/dam/gbp2/company/overview/1920x1080_company_desktop_teaser.jpg?imwidth=1920&imdensity=1",
+            viewport: "width=device-width, initial-scale=1",
+            "twitter:description":
+              "Audi stands for sporty vehicles, high build quality and progressive design – for “Vorsprung durch Technik.” The Audi Group is among the world’s leading producers of premium cars.",
+            "og:url": "https://www.audi.com/en/company.html",
+            "gbp2:title": "Company",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://www.audi.com/content/dam/gbp2/company_alt/report/2022/audi_report_stories/Startseite/Audi-Startseite_1920x1080_Audi.com.jpg?imwidth=792&imdensity=1",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Audi - Wikipedia",
+      htmlTitle: "<b>Audi</b> - Wikipedia",
+      link: "https://en.wikipedia.org/wiki/Audi",
       displayLink: "en.wikipedia.org",
       snippet:
-        "India has been a federal republic since 1950, governed through a democratic parliamentary system. It is a pluralistic, multilingual and multi-ethnic society.",
+        "The modern Audi era began in the 1960s, when Auto Union was acquired by Volkswagen from Daimler-Benz. ... After relaunching the Audi brand with the 1965 ...",
       htmlSnippet:
-        "\u003cb\u003eIndia\u003c/b\u003e has been a federal republic since 1950, governed through a democratic parliamentary system. It is a pluralistic, multilingual and multi-ethnic society.",
-      formattedUrl: "https://en.wikipedia.org/wiki/India",
-      htmlFormattedUrl:
-        "https://en.wikipedia.org/wiki/\u003cb\u003eIndia\u003c/b\u003e",
+        "The modern <b>Audi</b> era began in the 1960s, when Auto Union was acquired by Volkswagen from Daimler-Benz. ... After relaunching the <b>Audi</b> brand with the 1965&nbsp;...",
+      cacheId: "h5k4jtiF31UJ",
+      formattedUrl: "https://en.wikipedia.org/wiki/Audi",
+      htmlFormattedUrl: "https://en.wikipedia.org/wiki/<b>Audi</b>",
       pagemap: {
         hcard: [
           {
-            fn: "Republic of India",
+            url_text: "audi.com",
+            fn: "Audi AG",
+            logo: "Audi Forum (Ingolstadt, Germany): Museum and headquarters of the carmaker.",
+            category: "Subsidiary (AG)",
+            url: "audi.com",
           },
         ],
         metatags: [
           {
             referrer: "origin",
             "og:image":
-              "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Das_Audi_Forum_Ingolstadt.JPG/1200px-Das_Audi_Forum_Ingolstadt.JPG",
             "theme-color": "#eaecf0",
             "og:image:width": "1200",
             "og:type": "website",
             viewport:
               "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
-            "og:title": "India - Wikipedia",
-            "og:image:height": "800",
+            "og:title": "Audi - Wikipedia",
+            "og:image:height": "812",
             "format-detection": "telephone=no",
           },
         ],
@@ -81,426 +325,1338 @@ export default {
     },
     {
       kind: "customsearch#result",
-      title: "National Portal of India",
-      htmlTitle: "National Portal of \u003cb\u003eIndia\u003c/b\u003e",
-      link: "https://www.india.gov.in/",
-      displayLink: "www.india.gov.in",
+      title: "2024 Audi Q7 | Luxury SUV | Audi USA",
+      htmlTitle: "2024 <b>Audi</b> Q7 | Luxury SUV | <b>Audi</b> USA",
+      link: "http://www.audiusa.com/us/web/en/models/q7/q7/2024/overview.html",
+      displayLink: "www.audiusa.com",
       snippet:
-        "National Portal of India provides a single-window access to information and services that are electronically delivered from all Government Departments, ...",
+        "Explore new possibilities with the 2024 Audi Q7 that boasts three rows of seats and a balanced performance. Learn all about pricing, specs, design, ...",
       htmlSnippet:
-        "National Portal of \u003cb\u003eIndia\u003c/b\u003e provides a single-window access to information and services that are electronically delivered from all Government Departments,&nbsp;...",
-      cacheId: "z3ECrFkBOMIJ",
-      formattedUrl: "https://www.india.gov.in/",
-      htmlFormattedUrl: "https://www.\u003cb\u003eindia\u003c/b\u003e.gov.in/",
-      pagemap: {
-        metatags: [
-          {
-            handheldfriendly: "true",
-            viewport: "width=device-width, initial-scale=1",
-            mobileoptimized: "width",
-            title: "National Portal of India",
-            lang: "English",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Incredible India: Official Website for Ministry of Tourism India",
-      htmlTitle:
-        "Incredible \u003cb\u003eIndia\u003c/b\u003e: Official Website for Ministry of Tourism \u003cb\u003eIndia\u003c/b\u003e",
-      link: "https://www.incredibleindia.org/",
-      displayLink: "www.incredibleindia.org",
-      snippet:
-        "India has a myriad of landscapes, great heritage and culture, varied flora and fauna. The country is the most preferred tourist destinations for tourists ...",
-      htmlSnippet:
-        "\u003cb\u003eIndia\u003c/b\u003e has a myriad of landscapes, great heritage and culture, varied flora and fauna. The country is the most preferred tourist destinations for tourists&nbsp;...",
-      cacheId: "3RhlGEoHLIMJ",
-      formattedUrl: "https://www.incredibleindia.org/",
+        "Explore new possibilities with the 2024 <b>Audi</b> Q7 that boasts three rows of seats and a balanced performance. Learn all about pricing, specs, design,&nbsp;...",
+      formattedUrl: "www.audiusa.com/us/web/en/models/q7/q7/2024/overview.html",
       htmlFormattedUrl:
-        "https://www.incredible\u003cb\u003eindia\u003c/b\u003e.org/",
+        "www.<b>audi</b>usa.com/us/web/en/models/q7/q7/2024/overview.html",
       pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQjfwki8ayijkvJ5ImQlpj10p0nT-bI9NJlwJrUfh6hqGrk9dLr3_HW7oM",
-            width: "258",
-            height: "195",
-          },
-        ],
         metatags: [
           {
-            template: "home-page",
-            "og:image":
-              "http://www.incredibleindia.org/content/incredible-india-v2/en.thumb.800.480.png?ck=1699623079",
-            "og:type": "website",
-            "og:site_name": "Incredible India V2",
-            viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-            "og:title": "English",
-            "og:url":
-              "http://www.incredibleindia.org/content/incredible-india-v2/en.html",
+            carline: "q7-2023-4M",
+            "theme-color": "#000000",
+            "wag-baseurl": "https://web-api.audi.com",
+            "locale-market": "US",
+            "cola-api-url": "https://onegraph.audi.com/graphql",
+            carlinegroup: "q7",
+            "i18n-endpoint": "https://www.audiusa.com/us/web/en.i18n.json",
+            "apple-mobile-web-app-title": "Audi.de",
+            "og:title": "2024 Audi Q7 | Luxury SUV | Audi USA",
+            "myaudi-auth-proxy": "https://www.audiusa.com/userinfo/",
+            "vue-agw-endpoint": "https://web-api.audi.com",
+            prstring: "default-q7-2023-4M",
             "og:description":
-              "India has a myriad of landscapes, great heritage and culture, varied flora and fauna. The country is the most preferred tourist destinations for tourists from all across the world for its picturesque landscapes, spectacular waterfalls, habitat of the country's largest tiger reserve and home to the warmest people on earth.",
-          },
-        ],
-        cse_image: [
-          {
-            src: "http://www.incredibleindia.org/content/incredible-india-v2/en.thumb.800.480.png?ck=1699623079",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Government of India, Department of Post",
-      htmlTitle:
-        "Government of \u003cb\u003eIndia\u003c/b\u003e, Department of Post",
-      link: "https://www.indiapost.gov.in/",
-      displayLink: "www.indiapost.gov.in",
-      snippet: "India Post, Ministry of Communication & Technology.",
-      htmlSnippet:
-        "\u003cb\u003eIndia\u003c/b\u003e Post, Ministry of Communication &amp; Technology.",
-      cacheId: "e1gX7XI2p9IJ",
-      formattedUrl: "https://www.indiapost.gov.in/",
-      htmlFormattedUrl:
-        "https://www.\u003cb\u003eindia\u003c/b\u003epost.gov.in/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpFbH2LYXtK8onOFDa57t4KqFmdEBJk8n-DdIyGGCaIS8-m3WmQ0wcsg6Y",
-            width: "196",
-            height: "257",
-          },
-        ],
-        metatags: [
-          {
-            viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-            author: "India Post, Ministry of Communication & Technology",
-            title: "India Post Home",
-            lang: "English",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://www.indiapost.gov.in/PublishingImages/MinisterOfState.jpg",
+              "Explore new possibilities with the 2024 Audi Q7 that boasts three rows of seats and a balanced performance. Learn all about pricing, specs, design, and more.",
+            "myaudi-logout-url": "https://www.audiusa.com/us/web/en.html",
+            "locale-language": "en",
+            "facebook-domain-verification": "48x8ohjpp0hci5hy12q6uautfs96b6",
+            viewport: "width=device-width, initial-scale=1",
+            "locale-currency": "USD",
           },
         ],
       },
     },
     {
       kind: "customsearch#result",
-      title:
-        "Book Air India Domestic & International Flights Online in 2023, Fly ...",
-      htmlTitle:
-        "Book Air \u003cb\u003eIndia\u003c/b\u003e Domestic &amp; International Flights Online in 2023, Fly ...",
-      link: "https://www.airindia.com/",
-      displayLink: "www.airindia.com",
+      title: "Audi MediaCenter",
+      htmlTitle: "<b>Audi</b> MediaCenter",
+      link: "https://www.audi-mediacenter.com/en",
+      displayLink: "www.audi-mediacenter.com",
       snippet:
-        "Book Air India flight tickets online for domestic & international travel. Fly nonstop with Air India & experience luxury & comfort. Book now!",
+        "The Audi MediaCenter is a service of Audi Communications for journalists, bloggers, and multipliers. It offers the latest news for press and media.",
       htmlSnippet:
-        "Book Air \u003cb\u003eIndia\u003c/b\u003e flight tickets online for domestic &amp; international travel. Fly nonstop with Air \u003cb\u003eIndia\u003c/b\u003e &amp; experience luxury &amp; comfort. Book now!",
-      cacheId: "bHFEwdh5gvgJ",
-      formattedUrl: "https://www.airindia.com/",
-      htmlFormattedUrl: "https://www.air\u003cb\u003eindia\u003c/b\u003e.com/",
+        "The <b>Audi</b> MediaCenter is a service of <b>Audi</b> Communications for journalists, bloggers, and multipliers. It offers the latest news for press and media.",
+      cacheId: "T60Hw14t1_cJ",
+      formattedUrl: "https://www.audi-mediacenter.com/en",
+      htmlFormattedUrl: "https://www.<b>audi</b>-mediacenter.com/en",
       pagemap: {
         cse_thumbnail: [
           {
-            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlKq1sUWvTdwNdHL5mYSnTAJFOcYj-Lzho1y9TAZ5uFo66SI0XWA2L7LI",
-            width: "301",
-            height: "167",
+            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQIG5fdVUo4KeIx21uzbSst_kceWnEkwd6lK2X5GmGvrv4IGalYynFYMHBv",
+            width: "311",
+            height: "162",
           },
         ],
         metatags: [
           {
-            template: "page-content",
             "og:image":
-              "https://www.airindia.com/adobe/dynamicmedia/deliver/dm-aid--b95cad14-fa40-44d8-aeab-db462d61e465/flying-returns.webp",
+              "https://www.audi-mediacenter.com/assets/share_default-8ba22f2ae59ea64dcab4984156c6c87f0be90b94f2121767fe277d9e46bfad13.png",
+            "og:image:alt": "Audi MediaCenter",
             "og:type": "website",
             "twitter:card": "summary_large_image",
-            "twitter:title": "Air India",
-            "twitter:domain": "airindia.com",
-            "twitter:url": "https://www.airindia.com",
-            "og:title": "https://www.airindia.com",
-            "og:description":
-              "Search for international and domestic flights to your preferred destination on Air India. One-way, round -trip or multi-city stopovers, choose what works for you.",
-            "twitter:image":
-              "https://www.airindia.com/adobe/dynamicmedia/deliver/dm-aid--b95cad14-fa40-44d8-aeab-db462d61e465/flying-returns.webp",
-            "twitter:site": "@airindia",
-            viewport: "width=device-width, initial-scale=1",
-            "twitter:description":
-              "Search for international and domestic flights to your preferred destination on Air India. One-way, round -trip or multi-city stopovers, choose what works for you.",
-            "og:url": "https://www.airindia.com",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://www.airindia.com/adobe/dynamicmedia/deliver/dm-aid--b95cad14-fa40-44d8-aeab-db462d61e465/flying-returns.webp",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title:
-        "Joint Statement from the United States and India | The White House",
-      htmlTitle:
-        "Joint Statement from the United States and \u003cb\u003eIndia\u003c/b\u003e | The White House",
-      link: "https://www.whitehouse.gov/briefing-room/statements-releases/2023/06/22/joint-statement-from-the-united-states-and-india/",
-      displayLink: "www.whitehouse.gov",
-      snippet:
-        "Jun 22, 2023 ... Joint Statement from the United States and India ... 1. President Joseph R. Biden, Jr. and Prime Minister Narendra Modi today affirmed a vision of ...",
-      htmlSnippet:
-        "Jun 22, 2023 \u003cb\u003e...\u003c/b\u003e Joint Statement from the United States and \u003cb\u003eIndia\u003c/b\u003e ... 1. President Joseph R. Biden, Jr. and Prime Minister Narendra Modi today affirmed a vision of&nbsp;...",
-      cacheId: "IEPNlCpe3n0J",
-      formattedUrl:
-        "https://www.whitehouse.gov/.../joint-statement-from-the-united-states-and-i...",
-      htmlFormattedUrl:
-        "https://www.whitehouse.gov/.../joint-statement-from-the-united-states-and-\u003cb\u003ei\u003c/b\u003e...",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS3uyPhjBII2dknIczGPDIGAZ-0GLB6yu539Y5-xQsiZQcmFJL9DA0C3tRE",
-            width: "310",
-            height: "163",
-          },
-        ],
-        metatags: [
-          {
-            "application-name": "The White House",
-            "og:image":
-              "https://www.whitehouse.gov/wp-content/uploads/2021/01/wh_social-share.png",
-            "og:type": "article",
-            "article:published_time": "2023-06-22T19:46:44+00:00",
-            "og:image:width": "1200",
-            "twitter:card": "summary_large_image",
-            "og:site_name": "The White House",
-            author: "The White House",
-            "og:title":
-              "Joint Statement from the United States and India | The White House",
-            "apple-mobile-web-app-title": "The White House",
-            "og:image:height": "630",
-            google: "notranslate",
-            "og:image:type": "image/png",
-            "og:description":
-              "1.        President Joseph R. Biden, Jr. and Prime Minister Narendra Modi today affirmed a vision of the United States and India as among the closest partners in the world – a partnership of democracies looking into the 21st century with hope, ambition, and confidence.  The U.S.-India Comprehensive Global and Strategic Partnership is anchored in a…",
-            "twitter:creator": "@whitehouse",
-            "article:publisher": "https://www.facebook.com/WhiteHouse/",
-            "twitter:site": "@whitehouse",
-            "article:modified_time": "2023-06-29T19:42:03+00:00",
-            viewport: "width=device-width, initial-scale=1",
+            "theme-color": "#ffffff",
+            "og:site_name": "Audi MediaCenter",
+            viewport: "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "og:title": "Audi MediaCenter",
             "og:locale": "en_US",
-            "og:url":
-              "https://www.whitehouse.gov/briefing-room/statements-releases/2023/06/22/joint-statement-from-the-united-states-and-india/",
+            "og:url": "https://www.audi-mediacenter.com/en",
+            "og:description":
+              "The Audi MediaCenter is a service of Audi Communications for journalists, bloggers, and multipliers. It offers the latest news for press and media.",
           },
         ],
         cse_image: [
           {
-            src: "https://www.whitehouse.gov/wp-content/uploads/2021/01/wh_social-share.png",
+            src: "https://www.audi-mediacenter.com/assets/share_default-8ba22f2ae59ea64dcab4984156c6c87f0be90b94f2121767fe277d9e46bfad13.png",
           },
         ],
       },
     },
     {
       kind: "customsearch#result",
-      title: "MoHFW | Home",
-      htmlTitle: "MoHFW | Home",
-      link: "https://mohfw.gov.in/",
-      displayLink: "mohfw.gov.in",
-      snippet: "Ministry of Health and Family Welfare. Government of India.",
+      title: "Audi USA (@audi) • Instagram photos and videos",
+      htmlTitle: "<b>Audi</b> USA (@<b>audi</b>) • Instagram photos and videos",
+      link: "https://www.instagram.com/audi/?hl=en",
+      displayLink: "www.instagram.com",
+      snippet:
+        "17M Followers, 110 Following, 2560 Posts - See Instagram photos and videos from Audi USA (@audi)",
       htmlSnippet:
-        "Ministry of Health and Family Welfare. Government of \u003cb\u003eIndia\u003c/b\u003e.",
-      cacheId: "2MH9BWwOKrMJ",
-      formattedUrl: "https://mohfw.gov.in/",
-      htmlFormattedUrl: "https://mohfw.gov.in/",
+        "17M Followers, 110 Following, 2560 Posts - See Instagram photos and videos from <b>Audi</b> USA (@<b>audi</b>)",
+      formattedUrl: "https://www.instagram.com/audi/?hl=en",
+      htmlFormattedUrl: "https://www.instagram.com/<b>audi</b>/?hl=en",
       pagemap: {
         cse_thumbnail: [
           {
-            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQX2lpi_PCbffRlPpWcYG1UPJ7Sl75smN8qEnZfdg1OlmuozHnoYhrssrs",
-            width: "243",
-            height: "208",
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDZBVe1fppmupKm3MBmcikkLpCS03HbyhhGlDKnnH_xWV3x0jAjJDH",
+            width: "100",
+            height: "100",
           },
         ],
         metatags: [
           {
-            viewport: "width=device-width, initial-scale=1",
+            "og:image":
+              "https://scontent-ord5-2.cdninstagram.com/v/t51.2885-19/79315591_540023663261358_5518257128172683264_n.jpg?stp=dst-jpg_s100x100&_nc_cat=1&ccb=1-7&_nc_sid=c4dd86&_nc_ohc=_V0lq7rLjX0AX8-_r9O&_nc_ht=scontent-ord5-2.cdninstagram.com&oh=00_AfB4U-7yRbCywS-XvS8uG_fJqr-lbSIoW7bFw-llCbL3rA&oe=655E541E",
+            "theme-color": "#ffffff",
+            "og:type": "profile",
+            "al:ios:app_name": "Instagram",
+            "og:title": "Audi USA (@audi) • Instagram photos and videos",
+            "al:android:package": "com.instagram.android",
+            "al:ios:url": "instagram://user?username=audi",
+            "color-scheme": "light",
+            "og:description":
+              "17M Followers, 110 Following, 2,560 Posts - See Instagram photos and videos from Audi USA (@audi)",
+            "al:ios:app_store_id": "389801252",
+            "al:android:url": "https://instagram.com/_u/audi/",
+            "apple-mobile-web-app-status-bar-style": "default",
+            viewport:
+              "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://www.instagram.com/audi/",
+            "al:android:app_name": "Instagram",
           },
         ],
         cse_image: [
           {
-            src: "https://www.mygov.in/overlay/PM_events.jpg",
+            src: "https://scontent-ord5-2.cdninstagram.com/v/t51.2885-19/79315591_540023663261358_5518257128172683264_n.jpg?stp=dst-jpg_s100x100&_nc_cat=1&ccb=1-7&_nc_sid=c4dd86&_nc_ohc=_V0lq7rLjX0AX8-_r9O&_nc_ht=scontent-ord5-2.cdninstagram.com&oh=00_AfB4U-7yRbCywS-XvS8uG_fJqr-lbSIoW7bFw-llCbL3rA&oe=655E541E",
           },
         ],
       },
     },
     {
       kind: "customsearch#result",
-      title: "India | History, Map, Population, Economy, & Facts | Britannica",
-      htmlTitle:
-        "\u003cb\u003eIndia\u003c/b\u003e | History, Map, Population, Economy, &amp; Facts | Britannica",
-      link: "https://www.britannica.com/place/India",
-      displayLink: "www.britannica.com",
+      title: "Audi Newsroom",
+      htmlTitle: "<b>Audi</b> Newsroom",
+      link: "https://media.audiusa.com/",
+      displayLink: "media.audiusa.com",
       snippet:
-        "India is a country that occupies the greater part of South Asia. It is a constitutional republic that represents a highly diverse population consisting of ...",
+        "View all. Audi TT Roadster Final edition celebrates a legacy of the original Audi design icon ...",
       htmlSnippet:
-        "\u003cb\u003eIndia\u003c/b\u003e is a country that occupies the greater part of South Asia. It is a constitutional republic that represents a highly diverse population consisting of&nbsp;...",
-      cacheId: "qsYvT3y4ymQJ",
-      formattedUrl: "https://www.britannica.com/place/India",
-      htmlFormattedUrl:
-        "https://www.britannica.com/place/\u003cb\u003eIndia\u003c/b\u003e",
+        "View all. <b>Audi</b> TT Roadster Final edition celebrates a legacy of the original <b>Audi</b> design icon&nbsp;...",
+      cacheId: "e8ZSphkDOE8J",
+      formattedUrl: "https://media.audiusa.com/",
+      htmlFormattedUrl: "https://media.<b>audi</b>usa.com/",
       pagemap: {
         cse_thumbnail: [
           {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVlCnXB_L2vaUyVJ68tg0q4flL_5HbDFDzVJ3dFE4lS0fej_y4kWlkcFw1",
-            width: "275",
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSvhjFd4aNQWxyUDZSoDNtojJ7XfieNOSL88DBt3yoBfVJ8OtsqkGmYgHbW",
+            width: "276",
             height: "183",
           },
         ],
         metatags: [
           {
-            "og:image":
-              "https://cdn.britannica.com/97/1597-050-008F30FA/Flag-India.jpg",
-            "twitter:card": "summary_large_image",
-            "og:type": "ARTICLE",
-            "og:site_name": "Encyclopedia Britannica",
-            "og:title": "India | History, Map, Population, Economy, & Facts",
-            "og:image:type": "image/jpeg",
-            "fb:pages": "74442380906",
-            "og:description":
-              "India is a country that occupies the greater part of South Asia. It is a constitutional republic that represents a highly diverse population consisting of thousands of ethnic groups. It is made up of eight union territories and 28 states, and its capital is New Delhi.",
-            "twitter:image":
-              "https://cdn.britannica.com/97/1597-050-008F30FA/Flag-India.jpg",
-            "fb:app_id": "1887621861548296",
-            "twitter:site": "@britannica",
-            viewport: "width=device-width, initial-scale=1.0",
-            "twitter:description":
-              "India is a country that occupies the greater part of South Asia. It is a constitutional republic that represents a highly diverse population consisting of thousands of ethnic groups. It is made up of eight union territories and 28 states, and its capital is New Delhi.",
-            "og:url": "https://www.britannica.com/place/India",
+            "msapplication-tilecolor": "#ffffff",
+            "theme-color": "#ffffff",
+            viewport:
+              "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "msapplication-tileimage":
+              "https://media.audiusa.com/resources/public/img/favicons/mstile-144x144.png",
           },
         ],
         cse_image: [
           {
-            src: "https://cdn.britannica.com/97/1597-050-008F30FA/Flag-India.jpg",
+            src: "https://media.audiusa.com/assets/images/thumbnail/12073-JC93285buildREVISED2openFINAL10252023HIRESJPEG.jpg",
           },
         ],
       },
     },
     {
       kind: "customsearch#result",
-      title: "Times of India",
-      htmlTitle: "Times of \u003cb\u003eIndia\u003c/b\u003e",
-      link: "https://timesofindia.indiatimes.com/",
-      displayLink: "timesofindia.indiatimes.com",
-      snippet:
-        "Top News in India: Read Latest News on Sports, Business, Entertainment, Blogs and Opinions from leading columnists. Times of India brings the Breaking News ...",
-      htmlSnippet:
-        "Top News in \u003cb\u003eIndia\u003c/b\u003e: Read Latest News on Sports, Business, Entertainment, Blogs and Opinions from leading columnists. Times of \u003cb\u003eIndia\u003c/b\u003e brings the Breaking News&nbsp;...",
-      cacheId: "LdaaGTUVpRkJ",
-      formattedUrl: "https://timesofindia.indiatimes.com/",
-      htmlFormattedUrl:
-        "https://timesof\u003cb\u003eindia\u003c/b\u003e.\u003cb\u003eindia\u003c/b\u003etimes.com/",
+      title: "Audi USA (@Audi) / X",
+      htmlTitle: "<b>Audi</b> USA (@<b>Audi</b>) / X",
+      link: "https://twitter.com/audi?lang=en",
+      displayLink: "twitter.com",
+      snippet: "Shaping the future of premium mobility.",
+      htmlSnippet: "Shaping the future of premium mobility.",
+      cacheId: "pELfpjl59boJ",
+      formattedUrl: "https://twitter.com/audi?lang=en",
+      htmlFormattedUrl: "https://twitter.com/<b>audi</b>?lang=en",
       pagemap: {
         cse_thumbnail: [
           {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB4HZ3yqkywPbs9hu1v5nCTPlvAhp6ldnupG4OusxrdMT6tKtCwHVhaqU",
-            width: "310",
-            height: "163",
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS-v5BtcZ_qTudOaD6YTK5myjqZr2nE5fBVPxlq1O84QfafdkLYY1xOaXc",
+            width: "200",
+            height: "200",
           },
         ],
         imageobject: [
           {
-            width: "600",
-            url: "https://static.toiimg.com/photo/msid-58127550/toilogo.jpg",
-            height: "60",
+            contenturl: "https://pbs.twimg.com/media/Ff-wtIcWAAAU5Sl.jpg",
+            width: "1080",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Ff-wtIcWAAAU5Sl?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Ff-wtI9WIAAsU0N.jpg",
+            width: "1080",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Ff-wtI9WIAAsU0N?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Ff-wtJUX0AQCJoY.jpg",
+            width: "1080",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Ff-wtJUX0AQCJoY?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Ff-wtJtXEAAFdiQ.jpg",
+            width: "1080",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Ff-wtJtXEAAFdiQ?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Ffc2gCaaMAEDO7I.jpg",
+            width: "1080",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Ffc2gCaaMAEDO7I?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FfSjUVNaMAIclV5.jpg",
+            width: "1080",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FfSjUVNaMAIclV5?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Fe-MXzaXgAEmy2C.jpg",
+            width: "1080",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fe-MXzaXgAEmy2C?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Fe4X6THaUAA9xDg.jpg",
+            width: "1200",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fe4X6THaUAA9xDg?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FeVaDuUXEAU-PPn.jpg",
+            width: "1600",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FeVaDuUXEAU-PPn?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FePmo-CaMAMfEaJ.jpg",
+            width: "1200",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FePmo-CaMAMfEaJ?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FePmo-FaEAEOeIo.jpg",
+            width: "1200",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FePmo-FaEAEOeIo?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FePmo-FaUAAz-ea.jpg",
+            width: "1200",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FePmo-FaUAAz-ea?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FdInyeRagAAvIhM.jpg",
+            width: "1200",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FdInyeRagAAvIhM?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FdInyeTakAQ9yN3.jpg",
+            width: "1200",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FdInyeTakAQ9yN3?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FdInyePacAM22u5.jpg",
+            width: "1200",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FdInyePacAM22u5?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FdECtmKaEAAl7X-.jpg",
+            width: "1200",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FdECtmKaEAAl7X-?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FdECvz4aEAAM3OI.jpg",
+            width: "1200",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FdECvz4aEAAM3OI?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FdECxucakAEih3w.jpg",
+            width: "1200",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FdECxucakAEih3w?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Fcy61glXgAIdYDr.jpg",
+            width: "1920",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fcy61glXgAIdYDr?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Fcy66gRX0AIWcU4.jpg",
+            width: "1920",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fcy66gRX0AIWcU4?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Fcy67bfWYAAJ1Vk.jpg",
+            width: "1920",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fcy67bfWYAAJ1Vk?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FcpG83pXoAEEzgT.jpg",
+            width: "1080",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FcpG83pXoAEEzgT?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FblqLjUaMAEOcmb.png",
+            width: "700",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FblqLjUaMAEOcmb?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FblqLk8aIAAn1Pk.jpg",
+            width: "1200",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FblqLk8aIAAn1Pk?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FblqLjCaUAE_7jy.jpg",
+            width: "1200",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FblqLjCaUAE_7jy?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FbqnHvwXgAAlUuc.jpg",
+            width: "1024",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FbqnHvwXgAAlUuc?format=jpg&name=thumb",
           },
         ],
-        organization: [
+        person: [
           {
-            name: "Times of India",
-            url: "https://m.timesofindia.com",
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "29679737",
+            givenname: "Audi",
+            additionalname: "AudiOfficial",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
+          },
+          {
+            identifier: "27650674",
+            givenname: "Audi USA",
+            additionalname: "Audi",
           },
         ],
-        metatags: [
+        interactioncounter: [
           {
-            "og:image": "https://static.toiimg.com/photo/47529300.cms",
-            "twitter:title":
-              "News - Latest News, Breaking News, Bollywood, Sports, Business and Political News | Times of India",
-            "og:image:width": "1070",
-            "theme-color": "#af2c2c",
-            "og:type": "website",
-            "og:site_name": "The Times of India",
-            handheldfriendly: "true",
-            "twitter:url": "https://timesofindia.indiatimes.com",
-            "og:title":
-              "News - Latest News, Breaking News, Bollywood, Sports, Business and Political News | Times of India",
-            "og:image:height": "580",
-            "og:description":
-              "Top News in India: Read Latest News on Sports, Business, Entertainment, Blogs and Opinions from leading columnists. Times of India brings the Breaking News and Latest News Headlines from India and around the World.",
-            "fb:pages": "26781952138",
-            "twitter:image": "https://static.toiimg.com/photo/47529300.cms",
-            "fb:app_id": "117787264903013",
-            viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-            "twitter:description":
-              "Top News in India: Read Latest News on Sports, Business, Entertainment, Blogs and Opinions from leading columnists. Times of India brings the Breaking News and Latest News Headlines from India and around the World.",
-            "apple-mobile-web-app-capable": "yes",
-            mobileoptimized: "width",
-            "mobile-web-app-capable": "yes",
-            "og:url": "https://timesofindia.indiatimes.com",
+            userinteractioncount: "1007",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1586036527561596929/likes",
           },
-        ],
-        cse_image: [
           {
-            src: "https://static.toiimg.com/photo/47529300.cms",
+            userinteractioncount: "213",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1586036527561596929/retweets",
           },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "India - United States Department of State",
-      htmlTitle:
-        "\u003cb\u003eIndia\u003c/b\u003e - United States Department of State",
-      link: "https://www.state.gov/countries-areas/india/",
-      displayLink: "www.state.gov",
-      snippet:
-        "India is also one of twelve countries partnering with the United States on the Indo-Pacific Economic Framework for Prosperity (IPEF) to make our economies more ...",
-      htmlSnippet:
-        "\u003cb\u003eIndia\u003c/b\u003e is also one of twelve countries partnering with the United States on the Indo-Pacific Economic Framework for Prosperity (IPEF) to make our economies more&nbsp;...",
-      cacheId: "5rr_20ddlTgJ",
-      formattedUrl: "https://www.state.gov/countries-areas/india/",
-      htmlFormattedUrl:
-        "https://www.state.gov/countries-areas/\u003cb\u003eindia\u003c/b\u003e/",
-      pagemap: {
-        cse_thumbnail: [
           {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8jWETtbXKtKBiLjoFb81omztMXSw91HObC0NWgso92KPHj7t9rwusrVx4",
-            width: "300",
-            height: "168",
+            userinteractioncount: "31",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1586036527561596929/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "549",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1586036527561596929",
+          },
+          {
+            userinteractioncount: "420",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1585330427983990784/likes",
+          },
+          {
+            userinteractioncount: "44",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1585330427983990784/retweets",
+          },
+          {
+            userinteractioncount: "28",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1585330427983990784/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "523",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1585330427983990784",
+          },
+          {
+            userinteractioncount: "12895",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/AudiOfficial/status/1585179930786418688/likes",
+          },
+          {
+            userinteractioncount: "1389",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/AudiOfficial/status/1585179930786418688/retweets",
+          },
+          {
+            userinteractioncount: "186",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/AudiOfficial/status/1585179930786418688/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "194",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/AudiOfficial/status/1585179930786418688",
+          },
+          {
+            userinteractioncount: "507",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1582793735590805505/likes",
+          },
+          {
+            userinteractioncount: "61",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1582793735590805505/retweets",
+          },
+          {
+            userinteractioncount: "4",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1582793735590805505/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "41",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1582793735590805505",
+          },
+          {
+            userinteractioncount: "1129",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1582068956437045250/likes",
+          },
+          {
+            userinteractioncount: "112",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1582068956437045250/retweets",
+          },
+          {
+            userinteractioncount: "8",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1582068956437045250/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "55",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1582068956437045250",
+          },
+          {
+            userinteractioncount: "877",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1580640488654151680/likes",
+          },
+          {
+            userinteractioncount: "88",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1580640488654151680/retweets",
+          },
+          {
+            userinteractioncount: "5",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1580640488654151680/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "25",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1580640488654151680",
+          },
+          {
+            userinteractioncount: "345",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1580226854862360578/likes",
+          },
+          {
+            userinteractioncount: "68",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1580226854862360578/retweets",
+          },
+          {
+            userinteractioncount: "2",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1580226854862360578/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "16",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1580226854862360578",
+          },
+          {
+            userinteractioncount: "396",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1577766341519544330/likes",
+          },
+          {
+            userinteractioncount: "66",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1577766341519544330/retweets",
+          },
+          {
+            userinteractioncount: "6",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1577766341519544330/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "19",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1577766341519544330",
+          },
+          {
+            userinteractioncount: "1353",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1577357908035399680/likes",
+          },
+          {
+            userinteractioncount: "166",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1577357908035399680/retweets",
+          },
+          {
+            userinteractioncount: "17",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1577357908035399680/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "35",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1577357908035399680",
+          },
+          {
+            userinteractioncount: "728",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1577068688385220621/likes",
+          },
+          {
+            userinteractioncount: "162",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1577068688385220621/retweets",
+          },
+          {
+            userinteractioncount: "22",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1577068688385220621/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "22",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1577068688385220621",
+          },
+          {
+            userinteractioncount: "853",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1574756276936089600/likes",
+          },
+          {
+            userinteractioncount: "129",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1574756276936089600/retweets",
+          },
+          {
+            userinteractioncount: "5",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1574756276936089600/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "26",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1574756276936089600",
+          },
+          {
+            userinteractioncount: "729",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1572651192978907137/likes",
+          },
+          {
+            userinteractioncount: "52",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1572651192978907137/retweets",
+          },
+          {
+            userinteractioncount: "93",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1572651192978907137/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "502",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1572651192978907137",
+          },
+          {
+            userinteractioncount: "106",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1572363140435939333/likes",
+          },
+          {
+            userinteractioncount: "23",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1572363140435939333/retweets",
+          },
+          {
+            userinteractioncount: "1",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1572363140435939333/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "8",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1572363140435939333",
+          },
+          {
+            userinteractioncount: "95",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1572040946619125762/likes",
+          },
+          {
+            userinteractioncount: "15",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1572040946619125762/retweets",
+          },
+          {
+            userinteractioncount: "0",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1572040946619125762/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "6",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1572040946619125762",
+          },
+          {
+            userinteractioncount: "186",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1570836564149936128/likes",
+          },
+          {
+            userinteractioncount: "47",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1570836564149936128/retweets",
+          },
+          {
+            userinteractioncount: "2",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1570836564149936128/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "18",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1570836564149936128",
+          },
+          {
+            userinteractioncount: "133",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1570158025960202240/likes",
+          },
+          {
+            userinteractioncount: "46",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1570158025960202240/retweets",
+          },
+          {
+            userinteractioncount: "2",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1570158025960202240/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "14",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1570158025960202240",
+          },
+          {
+            userinteractioncount: "111",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1570145996729974786/likes",
+          },
+          {
+            userinteractioncount: "22",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1570145996729974786/retweets",
+          },
+          {
+            userinteractioncount: "1",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1570145996729974786/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "2",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1570145996729974786",
+          },
+          {
+            userinteractioncount: "502",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1565399109976342528/likes",
+          },
+          {
+            userinteractioncount: "61",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1565399109976342528/retweets",
+          },
+          {
+            userinteractioncount: "6",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1565399109976342528/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "40",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1565399109976342528",
+          },
+          {
+            userinteractioncount: "272",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1565747745171849220/likes",
+          },
+          {
+            userinteractioncount: "48",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1565747745171849220/retweets",
+          },
+          {
+            userinteractioncount: "4",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1565747745171849220/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "11",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1565747745171849220",
+          },
+          {
+            userinteractioncount: "330",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Audi/status/1565728231159906305/likes",
+          },
+          {
+            userinteractioncount: "62",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Audi/status/1565728231159906305/retweets",
+          },
+          {
+            userinteractioncount: "4",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Audi/status/1565728231159906305/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "10",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Audi/status/1565728231159906305",
           },
         ],
         metatags: [
           {
             "og:image":
-              "https://www.state.gov/wp-content/uploads/2021/01/Placeholder_seal_final.png",
-            "og:type": "article",
-            "og:image:width": "1200",
-            "twitter:card": "summary_large_image",
-            "og:site_name": "United States Department of State",
-            "og:title": "India - United States Department of State",
-            "og:image:height": "675",
-            "og:image:type": "image/png",
-            "msapplication-tileimage":
-              "https://www.state.gov/wp-content/uploads/2022/04/cropped-dos_seal-270x270.png",
-            "twitter:image":
-              "https://www.state.gov/wp-content/uploads/2021/01/Placeholder_seal_final.png",
-            "msapplication-tap-highlight": "no",
-            "article:modified_time": "2023-08-23T21:18:49+00:00",
-            viewport: "width=device-width, initial-scale=1",
-            "og:locale": "en_US",
-            "og:url": "https://www.state.gov/countries-areas/india/",
+              "https://pbs.twimg.com/profile_images/1212497855241281536/JaDQeuXl_200x200.jpg",
+            "theme-color": "#FFFFFF",
+            "og:type": "profile",
+            "og:site_name": "X (formerly Twitter)",
+            "al:ios:app_name": "X",
+            "apple-mobile-web-app-title": "Twitter",
+            "og:title": "Audi USA (@Audi) on X",
+            "al:android:package": "com.twitter.android",
+            "al:ios:url": "twitter://user?screen_name=Audi",
+            title: "Audi USA (@Audi) on X",
+            "og:description": "Shaping the future of premium mobility.",
+            "al:ios:app_store_id": "333903271",
+            "facebook-domain-verification": "x6sdcc8b5ju3bh8nbm59eswogvg6t1",
+            "al:android:url": "twitter://user?screen_name=Audi",
+            "fb:app_id": "2231777543",
+            "apple-mobile-web-app-status-bar-style": "white",
+            viewport:
+              "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://twitter.com/Audi",
+            "al:android:app_name": "X",
+          },
+        ],
+        videoobject: [
+          {
+            duration: "PT0H0M10S",
+            embedurl:
+              "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1586036527561596929",
+            contenturl:
+              "https://video.twimg.com/ext_tw_video/1586036448175673345/pu/vid/720x900/Jrp81wpAce7VRCI_.mp4?tag=12",
+            uploaddate: "2022-10-28T16:45:49.000Z",
+            name: "@Audi's video Tweet",
+            description: "Embedded video",
+            caption: "Embedded video",
+            thumbnailurl:
+              "https://pbs.twimg.com/ext_tw_video_thumb/1586036448175673345/pu/img/-KoDCJrHX2zmTToc.jpg",
+          },
+          {
+            duration: "PT0H0M0S",
+            embedurl:
+              "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1577766341519544330",
+            contenturl:
+              "https://video.twimg.com/tweet_video/FeVaDtrXEBsvUQx.mp4",
+            uploaddate: "2022-10-05T21:03:03.000Z",
+            name: "@Audi's video Tweet",
+            description: "Embedded video",
+            caption: "Embedded video",
+            thumbnailurl:
+              "https://pbs.twimg.com/tweet_video_thumb/FeVaDtrXEBsvUQx.jpg",
+          },
+          {
+            duration: "PT0H0M58S",
+            embedurl:
+              "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1577068688385220621",
+            contenturl:
+              "https://video.twimg.com/amplify_video/1577067872785993728/vid/720x720/NbdvYIioXQNrw7QL.mp4?tag=14",
+            uploaddate: "2022-10-03T22:50:50.000Z",
+            name: "Audi R8 GT",
+            description: "Embedded video",
+            caption: "Embedded video",
+            thumbnailurl: "https://pbs.twimg.com/media/FeLfbqfXoBwivrc.jpg",
+          },
+          {
+            duration: "PT0H0M11S",
+            embedurl:
+              "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1574756276936089600",
+            contenturl:
+              "https://video.twimg.com/ext_tw_video/1574755792229732353/pu/vid/720x720/tYTvEvUMya4D4Sqg.mp4?tag=12",
+            uploaddate: "2022-09-27T13:42:08.000Z",
+            name: "@Audi's video Tweet",
+            description: "Embedded video",
+            caption: "Embedded video",
+            thumbnailurl:
+              "https://pbs.twimg.com/ext_tw_video_thumb/1574755792229732353/pu/img/QfM3RLqLIxWNIXt0.jpg",
+          },
+          {
+            duration: "PT0H0M53S",
+            embedurl:
+              "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1570158025960202240",
+            contenturl:
+              "https://video.twimg.com/amplify_video/1570156913563672580/vid/1280x720/fT3thnD47ddntFZi.mp4?tag=14",
+            uploaddate: "2022-09-14T21:10:20.000Z",
+            name: "Audi x Greentech Festival New York",
+            description: "Embedded video",
+            caption: "Embedded video",
+            thumbnailurl: "https://pbs.twimg.com/media/FcpSRMPWIAMEumb.jpg",
+          },
+        ],
+        collection: [
+          {
+            name: "Profile posts",
+          },
+        ],
+        creativework: [
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/ZbK7hV2sWD",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/RbuOKZCY6J",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/M8xfZl3LTG",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/rzoYM9BDsC",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/OHXIvgopZT",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/XoA5j3zyv2",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/mTwsORF0qo",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/JYWC8o2u6q",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/aH8axxqfB6",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/5PMut070C8",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/q0uqBCrA3x",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/4XtmYgaKY0",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/j7hmfDVl58",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/gyfB8LYFZQ",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/RkqnE59CAi",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/8hMthYhh3E",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/qawopYMNrd",
           },
         ],
         cse_image: [
           {
-            src: "https://www.state.gov/wp-content/uploads/2021/01/Placeholder_seal_final.png",
+            src: "https://pbs.twimg.com/profile_images/1212497855241281536/JaDQeuXl_200x200.jpg",
+          },
+        ],
+        socialmediaposting: [
+          {
+            identifier: "1586036527561596929",
+            commentcount: "549",
+            articlebody:
+              "Some wagons have supernatural abilities. #AudiRS6Avant",
+            position: "1",
+            datecreated: "2022-10-28T16:45:49.000Z",
+            datepublished: "2022-10-28T16:45:49.000Z",
+            url: "https://twitter.com/Audi/status/1586036527561596929",
+          },
+          {
+            identifier: "1585330427983990784",
+            commentcount: "523",
+            articlebody: "You’re all alone. What do you say to your Audi?",
+            position: "2",
+            datecreated: "2022-10-26T18:00:02.000Z",
+            datepublished: "2022-10-26T18:00:02.000Z",
+            url: "https://twitter.com/Audi/status/1585330427983990784",
+          },
+          {
+            identifier: "1585270073626861568",
+            position: "3",
+            datecreated: "2022-10-26T14:00:13.000Z",
+            datepublished: "2022-10-26T14:00:13.000Z",
+          },
+          {
+            identifier: "1585179930786418688",
+            commentcount: "194",
+            articlebody:
+              "Shaping the @F1 future together: #Audi x Sauber. The strategic partnership with the Sauber Group is the next milestone on the road to Formula 1. The Swiss squad will be competing as an Audi...",
+            datecreated: "2022-10-26T08:02:01.000Z",
+            datepublished: "2022-10-26T08:02:01.000Z",
+            url: "https://twitter.com/AudiOfficial/status/1585179930786418688",
+          },
+          {
+            identifier: "1582793735590805505",
+            commentcount: "41",
+            articlebody:
+              "Bucket seats worthy of your bucket list. #AudiRS6Avant",
+            position: "4",
+            datecreated: "2022-10-19T18:00:08.000Z",
+            datepublished: "2022-10-19T18:00:08.000Z",
+            url: "https://twitter.com/Audi/status/1582793735590805505",
+          },
+          {
+            identifier: "1582068956437045250",
+            commentcount: "55",
+            articlebody: "Plenty of horsepower for exploration. #AudiRS6Avant",
+            position: "5",
+            datecreated: "2022-10-17T18:00:07.000Z",
+            datepublished: "2022-10-17T18:00:07.000Z",
+            url: "https://twitter.com/Audi/status/1582068956437045250",
+          },
+          {
+            identifier: "1580640488654151680",
+            commentcount: "25",
+            articlebody:
+              "Rennsport performance from sea to summit. #AudiRS6Avant",
+            position: "6",
+            datecreated: "2022-10-13T19:23:54.000Z",
+            datepublished: "2022-10-13T19:23:54.000Z",
+            url: "https://twitter.com/Audi/status/1580640488654151680",
+          },
+          {
+            identifier: "1580226854862360578",
+            commentcount: "16",
+            articlebody:
+              "A bloodline with a long history of redlines. #AudiR8GT",
+            position: "7",
+            datecreated: "2022-10-12T16:00:16.000Z",
+            datepublished: "2022-10-12T16:00:16.000Z",
+            url: "https://twitter.com/Audi/status/1580226854862360578",
+          },
+          {
+            identifier: "1577766341519544330",
+            commentcount: "19",
+            articlebody: "https://twitter.com/X/status/1577730467436138524…",
+            position: "8",
+            datecreated: "2022-10-05T21:03:03.000Z",
+            datepublished: "2022-10-05T21:03:03.000Z",
+            url: "https://twitter.com/Audi/status/1577766341519544330",
+          },
+          {
+            identifier: "1577357908035399680",
+            commentcount: "35",
+            articlebody: "Details to be remembered for decades. #AudiR8GT",
+            position: "9",
+            datecreated: "2022-10-04T18:00:05.000Z",
+            datepublished: "2022-10-04T18:00:05.000Z",
+            url: "https://twitter.com/Audi/status/1577357908035399680",
+          },
+          {
+            identifier: "1577068688385220621",
+            commentcount: "22",
+            articlebody: "A sweet symphony. #AudiR8GT",
+            position: "10",
+            datecreated: "2022-10-03T22:50:50.000Z",
+            datepublished: "2022-10-03T22:50:50.000Z",
+            url: "https://twitter.com/Audi/status/1577068688385220621",
+          },
+          {
+            identifier: "1574756276936089600",
+            commentcount: "26",
+            articlebody:
+              "Catch a glimpse of the #RSetronGT within the world of Forza Horizon 5. What’s your favorite detail? @ForzaHorizon #DriveElectricWeek",
+            position: "11",
+            datecreated: "2022-09-27T13:42:08.000Z",
+            datepublished: "2022-09-27T13:42:08.000Z",
+            url: "https://twitter.com/Audi/status/1574756276936089600",
+          },
+          {
+            identifier: "1572651192978907137",
+            commentcount: "502",
+            articlebody:
+              "It's your first date. Which Audi are you arriving in?",
+            position: "12",
+            datecreated: "2022-09-21T18:17:17.000Z",
+            datepublished: "2022-09-21T18:17:17.000Z",
+            url: "https://twitter.com/Audi/status/1572651192978907137",
+          },
+          {
+            identifier: "1572363140435939333",
+            commentcount: "8",
+            articlebody:
+              "This year, at @greentech_fest New York, we joined change-makers and thought-leaders from around the world in the name of more sustainable progress. #FutureIsAnAttitude #Audi #GreentechFest...",
+            position: "13",
+            datecreated: "2022-09-20T23:12:40.000Z",
+            datepublished: "2022-09-20T23:12:40.000Z",
+            url: "https://twitter.com/Audi/status/1572363140435939333",
+          },
+          {
+            identifier: "1572040946619125762",
+            commentcount: "6",
+            articlebody:
+              "Focusing on MISSION:ZERO. This year, at @greentech_fest NYC, we put a spotlight on the future of more sustainable premium mobility. #Audi #GreentechFestival #eMobility #CelebrateChange Discover...",
+            position: "14",
+            datecreated: "2022-09-20T01:52:23.000Z",
+            datepublished: "2022-09-20T01:52:23.000Z",
+            url: "https://twitter.com/Audi/status/1572040946619125762",
+          },
+          {
+            identifier: "1570836564149936128",
+            commentcount: "18",
+            articlebody:
+              "The all-electric #Audi Q4 e-tron is in the spotlight at @greentech_fest New York. This week, we’re #CelebratingChange and sharing our commitment to a more sustainable future. #FutureIsAnAttitude...",
+            position: "15",
+            datecreated: "2022-09-16T18:06:36.000Z",
+            datepublished: "2022-09-16T18:06:36.000Z",
+            url: "https://twitter.com/Audi/status/1570836564149936128",
+          },
+          {
+            identifier: "1570158025960202240",
+            commentcount: "14",
+            articlebody:
+              "Gearing up for MISSION:ZERO. At @greentech_fest New York, we’ll be illuminating the ways Audi is putting sustainable progress into action today. #FutureIsAnAttitude #Audi #GreentechFestival...",
+            position: "16",
+            datecreated: "2022-09-14T21:10:20.000Z",
+            datepublished: "2022-09-14T21:10:20.000Z",
+            url: "https://twitter.com/Audi/status/1570158025960202240",
+          },
+          {
+            identifier: "1570145996729974786",
+            commentcount: "2",
+            articlebody:
+              "From New York to the world. This September, @greentech_fest is going global. Stay tuned for highlights as we put the spotlight on sustainable progress. #FutureIsAnAttitude #Audi #GreentechFestival...",
+            position: "17",
+            datecreated: "2022-09-14T20:22:32.000Z",
+            datepublished: "2022-09-14T20:22:32.000Z",
+            url: "https://twitter.com/Audi/status/1570145996729974786",
+          },
+          {
+            identifier: "1565399109976342528",
+            commentcount: "40",
+            articlebody:
+              "Rennsport is in the details. Can you guess the RS model?",
+            position: "18",
+            datecreated: "2022-09-01T18:00:06.000Z",
+            datepublished: "2022-09-01T18:00:06.000Z",
+            url: "https://twitter.com/Audi/status/1565399109976342528",
+          },
+          {
+            identifier: "1565747745171849220",
+            commentcount: "11",
+            articlebody: "Answer: #AudiRS3",
+            ispartof: "https://twitter.com/Audi/status/1565399109976342528",
+            position: "19",
+            datecreated: "2022-09-02T17:05:27.000Z",
+            datepublished: "2022-09-02T17:05:27.000Z",
+            url: "https://twitter.com/Audi/status/1565747745171849220",
+          },
+          {
+            identifier: "1565728231159906305",
+            commentcount: "10",
+            articlebody: "F1 race cars.",
+            position: "20",
+            datecreated: "2022-09-02T15:47:54.000Z",
+            datepublished: "2022-09-02T15:47:54.000Z",
+            url: "https://twitter.com/Audi/status/1565728231159906305",
           },
         ],
       },
